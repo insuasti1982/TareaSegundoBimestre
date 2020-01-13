@@ -24,7 +24,7 @@ public class MetodoRutas {
     //guardar archivo txt
     public void guardarArchivoRutas(Rutas rutas){
         try {
-            FileWriter fw = new FileWriter ("C:\\Rutas.txt", true);
+            FileWriter fw = new FileWriter ("C:\\Users\\diego.insuasti\\Downloads\\ProyectVentaBoletos\\Rutas.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw);
             pw.print(rutas.getId_Ruta());
